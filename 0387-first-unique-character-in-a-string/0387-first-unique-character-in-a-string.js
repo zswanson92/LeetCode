@@ -11,13 +11,10 @@ var firstUniqChar = function(s) {
         } else {
             hash[s[i]]++
         }
-    }
-        
+    }    
     let key;
     
     for(let el in hash){
-        console.log(el)
-        console.log(hash[el])
         if(hash[el] === 1){
             key = el
             break
