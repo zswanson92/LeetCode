@@ -14,12 +14,8 @@ var removeDuplicates = function(nums) {
         }
     }
     
-
-    console.log(nums)
-    // [0,0,1,1,1,2,2,3,3,4]
-    console.log(nums.includes('_'))
     if(nums.includes('_') === false){
        return nums.length
     } 
-    else return nums.slice(0, nums.indexOf('_')).length 
+    return nums.slice(0, nums.indexOf('_')).length 
 };
