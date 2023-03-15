@@ -36,8 +36,7 @@ var isSameTree = function(p, q) {
         } 
         
     }
-    console.log(abc)
-    console.log(xyz)
+
 
     for(let i = 0; i < abc.length; i++){
         if(abc[i] !== xyz[i]){
