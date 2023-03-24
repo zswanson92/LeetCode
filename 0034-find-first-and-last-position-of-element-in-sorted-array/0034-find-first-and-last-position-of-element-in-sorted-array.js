@@ -9,29 +9,18 @@ var searchRange = function(nums, target) {
     let i = 0
     let j = nums.length - 1
     let arr = []
-    
     while (i <= j){
-        
         if(nums[i] === target){
             arr.push(i)
-            // if(arr.length === 2){
-            // break
-            // }
             i++
         } 
         if(nums[j] === target){
             arr.push(j)
-            // if(arr.length === 2){
-            // break
-            // }
             j--
         } else if (nums[j] !== target && nums[i] !== target){
             i++
             j--
         }    
-        console.log(arr)
-        console.log("I",i)
-        console.log("J", j)
     }
     
     if(arr.length === 1){
