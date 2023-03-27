@@ -12,8 +12,6 @@ var isAnagram = function(s, t) {
     split.sort()
     splitTwo.sort()
     
-    console.log(split)
-    console.log(splitTwo)
     
     for(let i = 0; i < split.length; i++){
         if(split[i] !== splitTwo[i]){
