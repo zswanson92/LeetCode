@@ -12,20 +12,14 @@ var removeElement = function(nums, val) {
             let abc = nums.splice(i, 1)
             nums.push(abc[0])
             i--
-            // console.log("THIS IS NUMS", nums)
         }
     }
-    // nums.sort((a, b) => a - b)
-    console.log(nums)
+    
     let count = 0;
     
-    for(let j = nums.length - 1; j >= 0; j--){
-        // console.log("HIT?", j)
-        
+    for(let j = nums.length - 1; j >= 0; j--){        
         if(nums[j] === 100){
-            // count++
             nums.pop()
-            console.log("IN LOOP", nums)
         } else {
             count = nums.length
             return count
