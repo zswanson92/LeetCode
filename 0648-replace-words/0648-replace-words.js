@@ -8,7 +8,6 @@ var replaceWords = function(dictionary, sentence) {
     let split = sentence.split(' ')
     
     for(let i = 0; i < split.length; i++){
-        console.log("UWU", split[i])
         for(let j = 0; j < split[i].length; j++){
             subStr += split[i][j]
             if(dictionary.includes(subStr)){
