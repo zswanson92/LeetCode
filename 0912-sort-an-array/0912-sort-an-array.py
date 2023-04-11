@@ -9,14 +9,3 @@ class Solution:
         
         return merge(left, right)
         
-    def merge(left, right):
-        merge = []
-        
-        while len(left) or len(right):
-            if left[0] < right[0]:
-                merge.push(left.pop(0))
-                
-            else:
-                merge.push(right.pop(0))
-                
-            return merge + left + right
