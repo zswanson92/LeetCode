@@ -14,6 +14,4 @@ var findPeakElement = function(nums) {
             return i
         }
     }
-    
-    
 };
