@@ -18,7 +18,6 @@ var kthDistinct = function(arr, k) {
             hold.add(key)
         }
     }
-    console.log(hold)
     let abc = Array.from(hold)
     
     if(hold.size < k){
