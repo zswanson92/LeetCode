@@ -12,13 +12,4 @@ var reduce = function(nums, fn, init) {
     }
     return res
     
-//     let ans = init;
-//     for (let i of nums)
-//         ans = fn(ans, i);
-    
-//     return ans;
-    
-    
-    
-    
 };
