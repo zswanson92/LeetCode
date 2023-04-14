@@ -7,7 +7,6 @@ var findWinners = function(matches) {
     let loser = {}
     let abc = new Set()
     let loseArr = []
-    
     for(let i = 0; i < matches.length; i++){
         let curr = matches[i]
         for(let j = 0; j < curr.length; j++){
@@ -20,9 +19,7 @@ var findWinners = function(matches) {
             }
         }
     }
-
     for(let key in loser){
-        console.log(typeof Number(key))
         if(abc.has(Number(key))){
             abc.delete(Number(key))
         }
