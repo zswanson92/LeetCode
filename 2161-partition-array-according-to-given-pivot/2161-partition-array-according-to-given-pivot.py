@@ -12,9 +12,6 @@ class Solution:
                 equal.append(nums[x])
             if(nums[x] > pivot):
                 greater.append(nums[x])
-                
-        print(less)
-        print(equal)
-        print(greater)
+
         nums = less + equal + greater
         return nums
