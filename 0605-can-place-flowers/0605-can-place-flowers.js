@@ -13,8 +13,6 @@ var canPlaceFlowers = function(flowerbed, n) {
         }
     }
     
-    console.log(flowerbed)
-    console.log(avail)
     
     return avail >= n
 };
