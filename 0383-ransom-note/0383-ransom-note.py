@@ -11,7 +11,6 @@ class Solution:
                 mag[y] -= 1
             else:
                 mag[y] = -1
-        print(mag)
         for z in mag:
             if mag[z] < 0:
                 return False
